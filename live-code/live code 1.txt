@@ -1,0 +1,17 @@
+No 1
+
+Set 'Nilai' with ''
+
+IF 'Nilai' is <= 100 AND >= 80
+  Display 'A'
+  ELSE IF 'Nilai' is <= 79 AND >= 65
+  Display 'B'
+  ELSE IF 'Nilai' <= 64 AND >= 50
+  Display 'C'
+  ELSE IF 'Nilai' <= 49 AND >= 35
+  Display 'D'
+  ELSE IF 'Nilai' <= 34 AND >= 0
+  Display 'E'
+  ELSE
+  Display 'Nilai Invalid'
+END IF
