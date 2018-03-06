@@ -17,7 +17,7 @@ function drawSymbolicColsBox(height) {
       rowSymbol += symbol[j-1]+' ';
     }
   }
-  console.log (rowSymbol);
+  console.log(rowSymbol);
 }
 
 
