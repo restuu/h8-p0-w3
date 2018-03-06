@@ -15,10 +15,38 @@ function changeSpaceWith(str, to) {
 
 changeSpaceWith('Steve Fox', '-')
 
+// Non-magic
+
+function changeSpaceWith(str, to) {
+  var word = ''
+  for (var i = 0; i < str.length; i++) {
+   if (str[i] = ' ') {
+     word += to
+   } else {
+     word += str[i]
+   }
+  }
+  return word;
+}
+
+changeSpaceWith('Steve Fox', '-')
+
 // No 3
 
 function cutString(str) {
   return str.substr(0, 6);
+}
+
+cutString('malin kundang')
+
+// Non-magic
+
+function cutString(str) {
+  var cutWord = '';
+  for (var i = 0; i < 6; i++) {
+   cutWord += str[i];
+  }
+  return cutWord;
 }
 
 cutString('malin kundang')
