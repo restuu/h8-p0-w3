@@ -20,6 +20,24 @@ function drawSymbolicColsBox(height) {
   console.log(rowSymbol);
 }
 
+function drawSymbolicColsBox(height) {
+  var number = 0;                             //number di luar maka perhitungan dilanjutkan
+  for (var i = 0; i < height; i++) {
+    var str = '';                             //str di luar agar loop 'i' selanjutnya perhitungan di reset
+    for (var j = 0; j < height; j++) {
+      number ++;
+      if (number % 3 === 0) {
+        str += '* ';
+      } else if (number % 2 === 0) {
+        str += '$ ';
+      } else {
+        str += '@ ';
+      }
+    }
+    console.log(str);
+  }
+
+
 
 drawSymbolicColsBox(3);
 drawSymbolicColsBox(5);

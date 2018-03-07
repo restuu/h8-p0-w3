@@ -2,8 +2,8 @@ function dataHandling2(id) {
   var input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
 
   if (id === 1) {
-    var nama = input[1] + 'Elsharawy';
-    input.splice(1, 1, nama);
+    input[1] = input[1] + 'Elsharawy';
+    // input.splice(1, 1, nama);
     console.log(input);
   } else if (id === 2) {
     var ttl = input.slice(3, 4);
@@ -56,4 +56,4 @@ function dataHandling2(id) {
   }
 }
 
-dataHandling2(4);
+dataHandling2(2);

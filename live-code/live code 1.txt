@@ -1,17 +1,20 @@
 No 1
 
-Set 'Nilai' with ''
+Set 'Nilai' with '' //with any value (number)
+//Set 'Nama' with any value (string)
 
-IF 'Nilai' is <= 100 AND >= 80
+IF 'Nilai' is <= 100 AND >= 80 THEN
   Display 'A'
-  ELSE IF 'Nilai' is <= 79 AND >= 65
+  ELSE IF 'Nilai' is <= 79 AND >= 65 THEN
   Display 'B'
-  ELSE IF 'Nilai' <= 64 AND >= 50
+  ELSE IF 'Nilai' <= 64 AND >= 50 THEN
   Display 'C'
-  ELSE IF 'Nilai' <= 49 AND >= 35
+  ELSE IF 'Nilai' <= 49 AND >= 35 THEN
   Display 'D'
-  ELSE IF 'Nilai' <= 34 AND >= 0
+  ELSE IF 'Nilai' <= 34 AND >= 0 THEN
   Display 'E'
   ELSE
   Display 'Nilai Invalid'
 END IF
+
+DISPLAY Nama PLUS Nilai
