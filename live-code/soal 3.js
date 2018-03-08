@@ -18,9 +18,9 @@ changeSpaceWith('Steve Fox', '-')
 // Non-magic
 
 function changeSpaceWith(str, to) {
-  var word = ''
+  var word = '';
   for (var i = 0; i < str.length; i++) {
-   if (str[i] = ' ') {
+   if (str[i] === ' ') {
      word += to
    } else {
      word += str[i]
