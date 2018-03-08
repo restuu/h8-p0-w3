@@ -2,7 +2,7 @@ function dataHandling2(id) {
   var input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
 
   if (id === 1) {
-    input[1] = input[1] + 'Elsharawy';
+    input.splice(1, 1, 'Roman Alamsyah Elsharawi');
     // input.splice(1, 1, nama);
     console.log(input);
   } else if (id === 2) {
