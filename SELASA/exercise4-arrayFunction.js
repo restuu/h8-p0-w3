@@ -56,4 +56,4 @@ function dataHandling2(id) {
   }
 }
 
-dataHandling2(2);
+dataHandling2(4);
