@@ -4,15 +4,15 @@ function angkaPalindrome(num) {
   for (var i = 0; strNum != revNum; i++){
     num++;
     strNum = num.toString();
-    
+
     var backStr = '';
     for (var j = strNum.length - 1; j >= 0; j--){
       backStr += strNum[j];
-      revNum = backStr; 
+      revNum = backStr;
     }
   }
-  return strNum
-} 
+  return parseInt(revNum)
+}
 
 // TEST CASES
 console.log(angkaPalindrome(8)); // 9
