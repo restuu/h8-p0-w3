@@ -1,14 +1,14 @@
 function perkalianUnik(arr) {
   var arrCut = [];   //temporary store arr element
-  var arrTime = [];  
+  var arrTime = [];
   for (var i = 0; i < arr.length; i++) {
-    arrCut[i] = parseInt(arr.splice(i, 1));
+    arrCut[0] = parseInt(arr.splice(i, 1));
     var timer = 1;
     for (var j = 0; j < arr.length; j++) {
       timer *= arr[j];
     }
     arrTime[i] = timer;
-    arr.splice(i, 0, arrCut[i]);
+    arr.splice(i, 0, arrCut[0]);
   }
   return arrTime;
 }
