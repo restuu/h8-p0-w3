@@ -5,10 +5,10 @@ function angkaPalindrome(num) {
     num++;
     strNum = num.toString();
 
-    var backStr = '';
-    for (var j = strNum.length - 1; j >= 0; j--){
+    var backStr = '';       //var ini agar loop nya ter reset
+    for (var j = strNum.length - 1; j >= 0; j--) {
       backStr += strNum[j];
-      revNum = backStr;
+      revNum = backStr;     //masukkan hasilnya ke variable yg global
     }
   }
   return parseInt(revNum)
