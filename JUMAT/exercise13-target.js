@@ -9,7 +9,7 @@ function targetTerdekat(arr) {
     target = arr.slice(strO, strX + 1)
     return target.length - 1;
   } else if (strO > strX) {
-    target = arr.slice(strX, strO + 1)
+    target = arr.slice(arr.lastIndexOf('x'), strO + 1)
     return target.length - 1;
   }
 }

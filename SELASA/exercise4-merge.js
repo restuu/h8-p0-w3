@@ -4,35 +4,37 @@ function dataHandling2(input) {
   console.log(input);
 
   var ttl = input.slice(3, 4);
-
+  var bulan = '';
+  // console.log(ttl);
   switch (ttl[0].slice(3, 5)){
     case '01' :
-      console.log('Januari'); break;
+      bulan += 'Januari'; break;
     case '02' :
-      console.log('Februari'); break;
+      bulan += 'Februari'; break;
     case '03' :
-      console.log('Maret'); break;
+      bulan += 'Maret'; break;
     case '04' :
-      console.log('April'); break;
+      bulan += 'April'; break;
     case '05' :
-      console.log('Mei'); break;
+      bulan += 'Mei'; break;
     case '06' :
-      console.log('Juni'); break;
+      bulan += 'Juni'; break;
     case '07' :
-      console.log('Juli'); break;
+      bulan += 'Juli'; break;
     case '08' :
-      console.log('Agustus'); break;
+      bulan += 'Agustus'; break;
     case '09' :
-      console.log('September'); break;
+      bulan += 'September'; break;
     case '10' :
-      console.log('Oktober'); break;
+      bulan += 'Oktober'; break;
     case '11' :
-      console.log('November'); break;
+      bulan += 'November'; break;
     case '12' :
-      console.log('Desember'); break;
+      bulan += 'Desember'; break;
     default   :
-      console.log('invalid');
+      bulan += 'invalid';
   }
+  console.log(bulan);
 
   var date = input[3].toString().split('/');
   var sortDate = [];
