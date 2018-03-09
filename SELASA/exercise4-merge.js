@@ -3,8 +3,6 @@ function dataHandling2(input) {
     // input.splice(1, 1, nama);
   console.log(input);
 
-
-
   var ttl = input.slice(3, 4);
 
   switch (ttl[0].slice(3, 5)){
@@ -35,9 +33,6 @@ function dataHandling2(input) {
     default   :
       console.log('invalid');
   }
-
-
-
 
   var date = input[3].toString().split('/');
   var sortDate = [];
