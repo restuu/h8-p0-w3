@@ -18,3 +18,11 @@ function dataHandling(ID) {
 }
 
 dataHandling('0002');
+
+/*
+FOR every index of array input START from the first index UNTIL the last index,
+  DISPLAY 'No ID: ' plus the FIRST element of indexed array;
+  DISPLAY 'Nama Lengkap: ' plus the SECOND element indexed array;
+  DISPLAY 'TTL: ' plus the THIRD and FOURTH element of indexed array separated with <space>;
+  DISPLAY 'Hobi: ' plus the FIFTH element of indexed array;
+END FOR;
